@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate Marketplace</title>
+  </head>
+  <body>
+    <h1>Real Estate Marketplace</h1>
+
+    <h2>Register Property</h2>
+    <form method="post">
+        <label for="price">Price (in Ether):</label>
+        <input type="text" id="price" name="price">
+        <label for="details">Property Details:</label>
+        <textarea id="details" name="details"></textarea>
+        <button type="submit" name="register">Register Property</button>
+    </form>
+
+    <h2>Buy Property</h2>
+    <form method="post">
+        <label for="property_id">Property ID:</label>
+        <input type="text" id="property_id" name="property_id">
+        <label for="purchase_price">Purchase Price (in Ether):</label>
+        <input type="text" id="purchase_price" name="purchase_price">
+        <button type="submit" name="buy">Buy Property</button>
+    </form>
+  </body>
+</html>
